@@ -164,7 +164,7 @@ export function HeroSection() {
               {/* Image container — resized correctly */}
               <div className="w-full h-[260px] overflow-hidden rounded-sm bg-neutral-200">
                 <ImageWithFallback
-                  src="public\mahiphoto1.jpg"
+                  src="/mahiphoto1.jpg"
                   alt="Mahi Palimkar"
                   className="w-full h-full object-cover scale-[1.05]"
                   style={{
