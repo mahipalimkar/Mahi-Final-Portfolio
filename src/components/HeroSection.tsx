@@ -158,13 +158,13 @@ export function HeroSection() {
               style={{
                 width: "400px", // overall polaroid width
                 padding: "10px 10px 25px 10px", // polaroid bottom space
-                border: "1px solid rgba(0,0,0,0.08)",
+                border: "2px solid #000", // changed to solid black border
               }}
             >
               {/* Image container — resized correctly */}
               <div className="w-full h-[260px] overflow-hidden rounded-sm bg-neutral-200">
                 <ImageWithFallback
-                  src="/mahiphoto1.jpg"
+                  src="/mahiphoto3.jpg"
                   alt="Mahi Palimkar"
                   className="w-full h-full object-cover scale-[1.05]"
                   style={{
